@@ -16,7 +16,7 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="./css/estilos.css" />
   </head>
-  <body>
+  <body class="bg-light">
     <div class="container">
       <!-- Navbar ROW -->
       <div class="row">
@@ -36,7 +36,7 @@
             <div id="navbarLinks">
               <button
                 id="downloadCVButton"
-                class="btn btn btn-outline-light btn-sm navbarIcon"
+                class="btn btn btn-outline-light btn-sm my-auto"
               >
                 Download CV
               </button>
@@ -62,17 +62,54 @@
     <div id="contentContainer" class="container-fluid">
       <!-- Content ROW -->
       <div id="contentRow" class="row">
-        <!-- Content COL -->
-        <div class="col-12">
+        <!-- Presentacion COL -->
+        <div class="col-12 d-flex">
+          <!-- Foto IRL -->
           <img
             id="fotoIrl"
-            class="img-fluid shadow p-0 rounded-2 d-inline"
+            class="img-fluid shadow p-0 rounded-2 my-auto"
             src="./assets/irl.jpg"
             alt="Yo"
             draggable="false"
           />
-          <h1 class="display-4 d-inline">Hi!</h1>
-          <h1 class="display-4">Im Chris.</h1>
+          <!-- Presentación COL -->
+          <div id="flexColumnPresentacion" class="flex-column my-auto">
+            <h1>
+              Hi!
+              <span class="fw-normal">
+                Im <span id="miNombrePresentacion">Chris</span>.</span
+              ><span class="fs-4">😊</span>
+            </h1>
+            <p id="textoPresentacion" class="text-muted fw-light text-justify">
+              I am a web developer specialized in backend, I started 4 years ago
+              programming bots in Discord and my goal is to specialize in
+              machine learning and artificial intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills ROW -->
+      <div
+        id="skillsRow"
+        class="row bg-dark border rounded-3 border-dark border-2 shadow"
+      >
+        <!-- Skills Tittle COL -->
+        <div class="col-12 text-center text-light mb-3">
+          <h1>My Skills</h1>
+        </div>
+        <!-- Skills Icons COL -->
+        <div class="col-12 px-5">
+          <div class="d-flex align-items-center justify-content-between">
+            <i class="fab fa-js fa-4x"></i>
+            <i class="fab fa-node-js fa-4x"></i>
+            <i class="fab fa-css3-alt fa-4x"></i>
+            <i class="fab fa-git-alt fa-4x"></i>
+            <!-- More info BUTTON -->
+            <button class="btn btn-light">
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
