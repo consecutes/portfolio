@@ -13,20 +13,36 @@
         margin-top: auto;
         margin-bottom: auto;
     }
+    
     #downloadCVButton {
         margin-right: 1em;
     }
+
     #navbar {
         display: flex !important;
         padding-bottom: 0px;
-        height: 3em;
+        padding-right: 2.5em;
+        padding-left: 2.5em;
+        height: 3.5em;
     }
+
     #navbarLinks {
         display: flex !important;
         margin-left:auto;
     }
+
     .navbarIcon {
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    #contentContainer {
+        /* TOP BOTTOM RIGHT LEFT */
+        padding: 5em 5em 2.5em 2.5em;
+    }
+
+    #fotoIrl {
+        width: 230px;
+        height: 230px;
     }
 }
