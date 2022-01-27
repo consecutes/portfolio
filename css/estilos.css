@@ -1,0 +1,32 @@
+.text-secondary {
+    color: #8b9297 !important;
+}
+.text-secondary:hover {
+    color: #9fa5aa !important;
+}
+.fas:hover, .fab:hover {
+    color: #e2e2e2 !important;
+}
+@media only screen and (max-width: 766px) {
+    .navbar-item, .fa-moon, .fa-sun {
+        margin-right: 1em;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #downloadCVButton {
+        margin-right: 1em;
+    }
+    #navbar {
+        display: flex !important;
+        padding-bottom: 0px;
+        height: 3em;
+    }
+    #navbarLinks {
+        display: flex !important;
+        margin-left:auto;
+    }
+    .navbarIcon {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
