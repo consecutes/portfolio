@@ -1,19 +1,33 @@
 .text-secondary {
-    color: #8b9297 !important;
+    color: #99a0a5 !important;
 }
 .text-secondary:hover {
-    color: #9fa5aa !important;
+    color: #b9bec3 !important;
 }
-.fas:hover, .fab:hover {
+.navbarIcon:hover {
     color: #e2e2e2 !important;
 }
+
+.fa-js {
+    color: rgb(255, 252, 105);
+}
+.fa-node-js {
+    color: greenyellow;
+}
+.fa-css3-alt {
+    color:#2965f1;
+}
+.fa-git-alt {
+    color: #f34f29;
+}
+
 @media only screen and (max-width: 766px) {
     .navbar-item, .fa-moon, .fa-sun {
         margin-right: 1em;
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
     #downloadCVButton {
         margin-right: 1em;
     }
@@ -37,12 +51,30 @@
     }
 
     #contentContainer {
-        /* TOP BOTTOM RIGHT LEFT */
-        padding: 5em 5em 2.5em 2.5em;
+        /* TOP RIGHT BOTTOM LEFT */
+        padding: 5.5em 2.5em /*2.5em*/ 2.5em;
     }
 
     #fotoIrl {
         width: 230px;
         height: 230px;
+    }
+
+    #flexColumnPresentacion {
+        margin-left: 3em;
+    }
+
+    .text-justify {
+        text-align: justify !important;
+    }
+
+    #textoPresentacion{
+        margin-top: 0.5em;
+    }
+    
+    #skillsRow{
+        margin-top: 3em;
+        /* TOP RIGHT BOTTOM LEFT */
+        padding: 1.5em 0em 1.5em 0em;
     }
 }
